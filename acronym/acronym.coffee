@@ -1,4 +1,7 @@
 
+# Used http://coffeescript.org for this.
+
+
 acronym = (input) ->
 	out = ""
 	out = out.concat(input.charAt(0)) if input.charAt(0) != " "
