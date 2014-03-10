@@ -1,0 +1,54 @@
+/*Derek Jobst 4/10/14*/
+
+/*This is to be added to the news.css file*/
+
+/* This is how comments are indented */
+img{
+	
+	width: 5%;
+}
+
+/* These just cause too many issues */
+code{
+	display: none;
+}
+
+/* Select inner tables */
+table table table{
+
+	width: 100%;
+	//background-color: red;
+}
+
+/* Select bounding tables. Not sure if mode modifications are needed. */
+table table{
+
+	width: 90%;
+	//background-color: blue;
+
+}
+
+/* Get rid of the default borders! */
+body{
+	
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* This is causing a lot of size issues */
+textarea{
+	width: 100%;
+}
+
+/* 
+
+There are issues when strings are very long (like a URL). This causes the table boxes to overflow
+
+It's not beautiful, but it IS responsive. 
+
+Issues to address:
+- URLS and long strings
+- Make it easier to see decendancy in conversations
+- Allow code tags to be visable.
+
+*/
