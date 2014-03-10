@@ -13,7 +13,7 @@ function acronym(input){
 		var location = input.indexOf(" ") + 1;
 
 		if(input.charAt(location) != " "){
-			out = out.concat(input.charAt(0));
+			out = out.concat(input.charAt(location));
 		}
 
 		input = input.substr(location+1);
